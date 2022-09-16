@@ -20,7 +20,12 @@ public class HomePage {
     WebElement profile;
 @FindBy(id = "ridmik.boitoi:id/tvTopFreeTab")
 WebElement freeBtn;
-
+@FindBy(id = "ridmik.boitoi:id/tvGenericBookName")
+List<WebElement> books;
+@FindBy(id = "ridmik.boitoi:id/viewDownload")
+WebElement downloadBtn;
+@FindBy(id = "ridmik.boitoi:id/clActions")
+WebElement readBtn;
     /*********************
      * Actions
      */
@@ -40,6 +45,19 @@ WebElement freeBtn;
     //enter free container
     public void freeContainer(){
         freeBtn.click();
+    }
+    //clicks second book
+    public void selectBook(){
+        books.get(1).click();
+    }
+    //clicks download
+    public void clickDownloadBtn() throws InterruptedException{
+        downloadBtn.click();
+        Thread.sleep(8000);
+    }
+    //clicks read
+    public void clickReadbtn(){
+        readBtn.click();
     }
 
 

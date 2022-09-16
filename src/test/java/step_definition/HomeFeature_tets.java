@@ -1,7 +1,9 @@
 package step_definition;
 
+import io.cucumber.java.bs.A;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pageObject.HomePage;
 import pageObject.LoginPage;
@@ -45,8 +47,22 @@ LoginPage login =new LoginPage();
         login.settingUp();
 
     }
-    @When("$Shihab selects \"সেরা ফ্রি বই\" from homepage$")
-    public void test_step_6(){
-
+    @When("^Shihab selects \"([^\"]*)\" from homepage$")
+    public void test_step_6(String text){
+        if (text.equals(freetext)){
+            home.freeContainer();
+        }
+    }
+    @And("^Shihab selects second book from the list$")
+    public void test_step_7(){
+        home.selectBook();
+    }
+    @And("^Shihab clicks download for that book$")
+    public void test_step_8() throws InterruptedException{
+        home.clickDownloadBtn();
+    }
+    @Then("^Shihab starts reading it$")
+    public void test_step_9(){
+        home.clickReadbtn();
     }
 }
