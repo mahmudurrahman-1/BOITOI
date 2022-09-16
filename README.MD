@@ -5,7 +5,7 @@
 **Scenario:** download a book after with login
 
 > **_Given:_** Shihab opens the application  
-> **_And:_**
+> **_And:_** Shihab goes to profile
 > **_And:_**
 > **_And:_**
 > **_And:_**
