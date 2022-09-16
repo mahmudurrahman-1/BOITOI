@@ -9,13 +9,10 @@
 > **_And:_** Shihab clicks login with phone
 > **_And:_** Shihab completes login
 > **_And:_** Shihab settings up with personal information
-> **_And:_**
-> **_When:_** Sultan click "Explore" from top list from home page  
-> **_And:_** Sultan click to "Nature" from categories  
-> **_Then:_** Sultan click "Like" icon, "Save" button , and click "Download"
-
-
-
+> **_When:_** Shihab selects "সেরা ফ্রি বই" from homepage
+> **_And:_** Shihab selects second book from the list
+> **_And:_** Shihab clicks download for that book
+> **_Then:_** Shihab starts reading it
 ### Additional functionalities, that may be covered:
 
 1. The more, the better. Insert additional tests if you feel you
