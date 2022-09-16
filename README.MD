@@ -8,7 +8,7 @@
 > **_And:_** Shihab goes to profile  
 > **_And:_** Shihab clicks login with phone   
 > **_And:_** Shihab completes login  
-> **_And:_** Shihab settings up with personal information
+> **_And:_** Shihab settings up with personal information  
 > **_When:_** Shihab selects "সেরা ফ্রি বই" from homepage
 > **_And:_** Shihab selects second book from the list
 > **_And:_** Shihab clicks download for that book
