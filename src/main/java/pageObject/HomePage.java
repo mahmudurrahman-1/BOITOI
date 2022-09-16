@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class HomePage {
     public HomePage(){
         PageFactory.initElements(PageDriver.getCurrentDriver(),this);
@@ -16,8 +18,7 @@ public class HomePage {
     WebElement nextbtn;
     @FindBy(id = "ridmik.boitoi:id/rlProfile")
     WebElement profile;
-@FindBy(id = "ridmik.boitoi:id/btnLogin")
-WebElement phoneLogin;
+
     /*********************
      * Actions
      */
@@ -35,8 +36,5 @@ WebElement phoneLogin;
         profile.click();
     }
 
-    //login with phone
-    public void setPhoneLogin(){
-        phoneLogin.click();
-    }
+
 }
