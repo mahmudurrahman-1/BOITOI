@@ -8,7 +8,7 @@
 > **_And:_** Shihab goes to profile
 > **_And:_** Shihab clicks login with phone
 > **_And:_** Shihab completes login
-> **_And:_**
+> **_And:_** Shihab settings up with personal information
 > **_And:_**
 > **_When:_** Sultan click "Explore" from top list from home page  
 > **_And:_** Sultan click to "Nature" from categories  
