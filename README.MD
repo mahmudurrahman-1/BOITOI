@@ -5,7 +5,7 @@
 **Scenario:** download a book after with login
 
 > **_Given:_** Shihab opens the application  
-> **_And:_** Shihab goes to profile
+> **_And:_** Shihab goes to profile  
 > **_And:_** Shihab clicks login with phone
 > **_And:_** Shihab completes login
 > **_And:_** Shihab settings up with personal information
