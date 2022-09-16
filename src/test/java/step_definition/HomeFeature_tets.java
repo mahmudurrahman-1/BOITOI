@@ -2,6 +2,7 @@ package step_definition;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
 import pageObject.HomePage;
 import pageObject.LoginPage;
 
@@ -11,6 +12,7 @@ public class HomeFeature_tets {
      */
 HomePage home =new HomePage();
 LoginPage login =new LoginPage();
+    String freetext="সেরা ফ্রি বই";
     /*********************
      * Actions
      */
@@ -41,6 +43,10 @@ LoginPage login =new LoginPage();
     @And("^Shihab settings up with personal information$")
     public void test_step_5() throws InterruptedException{
         login.settingUp();
+
+    }
+    @When("$Shihab selects \"সেরা ফ্রি বই\" from homepage$")
+    public void test_step_6(){
 
     }
 }

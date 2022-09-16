@@ -5,4 +5,4 @@ Feature: Home feature test
     And Shihab clicks login with phone
     And Shihab completes login
     And Shihab settings up with personal information
-    When Shihab selects "সেরা ফ্রি বই" 
+    When Shihab selects "সেরা ফ্রি বই" from homepage

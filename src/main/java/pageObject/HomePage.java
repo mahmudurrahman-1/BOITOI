@@ -18,6 +18,8 @@ public class HomePage {
     WebElement nextbtn;
     @FindBy(id = "ridmik.boitoi:id/rlProfile")
     WebElement profile;
+@FindBy(id = "ridmik.boitoi:id/tvTopFreeTab")
+WebElement freeBtn;
 
     /*********************
      * Actions
@@ -34,6 +36,10 @@ public class HomePage {
     //enter profile page
     public void goProfile(){
         profile.click();
+    }
+    //enter free container
+    public void freeContainer(){
+        freeBtn.click();
     }
 
 
