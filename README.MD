@@ -11,7 +11,7 @@
 > **_And:_** Shihab settings up with personal information  
 > **_When:_** Shihab selects "সেরা ফ্রি বই" from homepage  
 > **_And:_** Shihab selects second book from the list  
-> **_And:_** Shihab clicks download for that book
+> **_And:_** Shihab clicks download for that book  
 > **_Then:_** Shihab starts reading it
 ### Additional functionalities, that may be covered:
 
