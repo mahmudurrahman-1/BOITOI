@@ -7,7 +7,7 @@
 > **_Given:_** Shihab opens the application  
 > **_And:_** Shihab goes to profile
 > **_And:_** Shihab clicks login with phone
-> **_And:_**
+> **_And:_** Shihab completes login
 > **_And:_**
 > **_And:_**
 > **_When:_** Sultan click "Explore" from top list from home page  
