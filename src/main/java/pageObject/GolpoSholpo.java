@@ -81,7 +81,7 @@ public class GolpoSholpo extends Common {
         storyCon.click();
     }
     //Write story
-    public void writeStory(){
+    public void gotowriteStory(){
         storyWriteViewBtn.click();
         storyNewWriteBtn.click();
     }
