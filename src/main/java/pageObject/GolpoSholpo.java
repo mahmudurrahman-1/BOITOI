@@ -28,7 +28,7 @@ public class GolpoSholpo extends Common {
 
     //-enter
     @FindBy(id = "ridmik.boitoi:id/tvEditBookName")
-    WebElement storyBookName;
+    WebElement storyInputBookName;
 
     //-next
     @FindBy(id = "ridmik.boitoi:id/tvNext")
@@ -79,6 +79,40 @@ public class GolpoSholpo extends Common {
     //Goto Sotry Container
     public void gotoStory(){
         storyCon.click();
+    }
+    //Write story
+    public void writeStory(){
+        storyWriteViewBtn.click();
+        storyNewWriteBtn.click();
+    }
+    //write book name
+    public void writeStoryName(){
+        storyInputBookName.sendKeys("Life");
+        storyNextBtn.click();
+
+    }
+    //upload Image
+    public void imageUpload(){
+        storyCoveruploadBtn.click();
+        androidScrollByText(imgTextSize);
+        storyNextBtn.click();
+    }
+    //input values in writing story field
+    public void writeStoryBody(){
+        storyChapterAddBtn.click();
+        storyInputText.sendKeys("");
+        storyInputBoldBtn.click();
+
+    }
+    //save story
+    public void saveStory(){
+        storySaveBtn.click();
+        storyPublishbyThirdBtn.click();
+    }
+    //view free for all
+    public void viewStoryforFree(){
+        storyViewFreeBtn.click();
+        storyPublishNow.click();
     }
 
 }
