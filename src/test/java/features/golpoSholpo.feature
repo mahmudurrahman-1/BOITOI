@@ -1,4 +1,5 @@
 Feature: GolpoSholpo Feature
 
   Scenario: Write a story and post it
-  Given
+     Given Shihab goes to Story
+     

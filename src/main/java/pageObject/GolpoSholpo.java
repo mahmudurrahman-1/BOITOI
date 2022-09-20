@@ -76,4 +76,9 @@ public class GolpoSholpo extends Common {
      * Take All The Necessary Actions
      */
 
+    //Goto Sotry Container
+    public void gotoStory(){
+        storyCon.click();
+    }
+
 }
