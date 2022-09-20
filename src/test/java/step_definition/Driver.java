@@ -7,11 +7,12 @@ import io.cucumber.java.Before;
 
 public class Driver extends BaseDriver {
     @Before
-    public void startDriver(){
-        driver=setup();
+    public void startDriver() {
+        driver = setup();
     }
+
     @After
-    public void closeDriver(){
+    public void closeDriver() {
         PageDriver.getCurrentDriver().quit();
     }
 }

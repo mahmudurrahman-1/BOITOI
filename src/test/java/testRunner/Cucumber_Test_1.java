@@ -2,6 +2,7 @@ package testRunner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+
 @CucumberOptions(
         features = "src/test/java/features/golpoSholpo.feature",
         glue = "step_definition"
@@ -9,5 +10,5 @@ import io.cucumber.testng.CucumberOptions;
 //                "timeline:test-output-thread/", "rerun:target/failedrerun.txt"}
 )
 
-public class Cucumber_Test_1 extends AbstractTestNGCucumberTests{
+public class Cucumber_Test_1 extends AbstractTestNGCucumberTests {
 }

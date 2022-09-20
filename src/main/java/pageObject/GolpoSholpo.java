@@ -7,16 +7,17 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Common;
 
 public class GolpoSholpo extends Common {
-    public GolpoSholpo(){
-        PageFactory.initElements(PageDriver.getCurrentDriver(),this);
+    public GolpoSholpo() {
+        PageFactory.initElements(PageDriver.getCurrentDriver(), this);
     }
+
     //Locators
     //sholpogolpo
-//goto second feature
-   @FindBy(id = "ridmik.boitoi:id/rlShortStory")
+    //goto second feature
+    @FindBy(id = "ridmik.boitoi:id/rlShortStory")
     WebElement storyCon;
 
-  //  click write sholpo golpo
+    //  click write sholpo golpo
     @FindBy(id = "ridmik.boitoi:id/viewWriteShortStory")
     WebElement storyWriteViewBtn;
 
@@ -25,22 +26,22 @@ public class GolpoSholpo extends Common {
     WebElement storyNewWriteBtn;
 
 
-//-enter
+    //-enter
     @FindBy(id = "ridmik.boitoi:id/tvEditBookName")
     WebElement storyBookName;
 
-//-next
+    //-next
     @FindBy(id = "ridmik.boitoi:id/tvNext")
     WebElement storyNextBtn;
 
-//image upload
+    //image upload
 //-upload
     @FindBy(id = "ridmik.boitoi:id/tvUploadImage")
     WebElement storyCoveruploadBtn;
 
 
-//--scroll
-    String imgTextSize= "1.41 MB";
+    //--scroll
+    String imgTextSize = "1.41 MB";
     String scrollConId = " com.android.documentsui:id/dir_list";
 
     //  add new chapter click
@@ -55,7 +56,7 @@ public class GolpoSholpo extends Common {
     @FindBy(id = "ridmik.boitoi:id/storyEditorButtonBold")
     WebElement storyInputBoldBtn;
 
-//--save
+    //--save
     @FindBy(id = "ridmik.boitoi:id/tvSaveChapter")
     WebElement storySaveBtn;
 
@@ -67,9 +68,12 @@ public class GolpoSholpo extends Common {
     //free-
     @FindBy(id = "ridmik.boitoi:id/viewFree")
     WebElement storyViewFreeBtn;
-//--publish click
+    //--publish click
     @FindBy(id = "ridmik.boitoi:id/tvPublish")
     WebElement storyPublishNow;
 
-    //Actions
+    /****************
+     * Take All The Necessary Actions
+     */
+
 }

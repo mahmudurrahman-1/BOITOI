@@ -17,6 +17,7 @@ public class Common {
         element.clear();
         element.sendKeys(value);
     }
+
     /*********************************
      * *******************************
      * Method---------3 Search by "text" scrolling top bottom

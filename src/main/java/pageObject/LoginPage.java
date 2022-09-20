@@ -6,8 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-    public LoginPage(){
-        PageFactory.initElements(PageDriver.getCurrentDriver(),this);
+    public LoginPage() {
+        PageFactory.initElements(PageDriver.getCurrentDriver(), this);
     }
 
     /**************
@@ -29,30 +29,35 @@ public class LoginPage {
     WebElement lastName;
     @FindBy(id = "ridmik.boitoi:id/someOption")
     WebElement skipBtn;
+
     /**************
      * Actions
      */
     //configure for log in
-    public void setPhoneLogin(){
+    public void setPhoneLogin() {
         phoneLogin.click();
         yesBtn.click();
         allowPermission.click();
     }
+
     //login with phone number
-    public void loginWithPhone(){
+    public void loginWithPhone() {
         selectNumber.click();
     }
+
     //click on sign in
-    public void clickLogin() throws InterruptedException{
+    public void clickLogin() throws InterruptedException {
         nextSigninbtn.click();
         Thread.sleep(3000);
     }
+
     //click on verify button
     public void verify() {
         nextSigninbtn.click();
     }
+
     //do settings for personal information
-    public void settingUp() throws InterruptedException{
+    public void settingUp() throws InterruptedException {
         firstName.sendKeys("Mahmudur");
         lastName.sendKeys("Rahman");
         nextSigninbtn.click();
