@@ -61,16 +61,15 @@ public class GolpoSholpo extends Common {
 
     //  publish click
     @FindBy(id = "ridmik.boitoi:id/tvButtonThree")
-    WebElement storyCon;
+    WebElement storyPublishbyThirdBtn;
 
     //       click
     //free-
-    @FindBy(id = "")
-    WebElement storyCon;
-    ridmik.boitoi:id/viewFree
+    @FindBy(id = "ridmik.boitoi:id/viewFree")
+    WebElement storyViewFreeBtn;
 //--publish click
-    @FindBy(id = "")
-    WebElement storyCon;
-    ridmik.boitoi:id/tvPublish
+    @FindBy(id = "ridmik.boitoi:id/tvPublish")
+    WebElement storyPublishNow;
+
     //Actions
 }
