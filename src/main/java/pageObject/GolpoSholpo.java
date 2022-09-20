@@ -35,7 +35,7 @@ public class GolpoSholpo extends Common {
     WebElement storyNextBtn;
 
     //image upload
-//-upload
+    //-upload
     @FindBy(id = "ridmik.boitoi:id/tvUploadImage")
     WebElement storyCoveruploadBtn;
 
